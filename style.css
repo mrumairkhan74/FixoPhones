@@ -12,15 +12,15 @@ body, html {
 }
 
 .nav-link{
-    color: #fff;
+    color: #a80164;
     font-size: 1.5rem;
 }
 .nav-link:hover,
 .nav-link.active
 {
     text-underline-offset: 10px;
-    text-decoration: 5px underline #fff;
-    color: #fff;
+    text-decoration: 5px underline #a80164;
+    color: #a80164;
 }
 
 /* for model csss label */
