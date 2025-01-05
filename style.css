@@ -1,17 +1,17 @@
 .fixed{
-    background: #fff;
+    background: linear-gradient(to right, #ffff,#000);
 }
 
 .nav-link{
-    color: #a80164;
+    color: #fff;
     font-size: 1.5rem;
 }
 .nav-link:hover,
 .nav-link.active
 {
     text-underline-offset: 10px;
-    text-decoration: 5px underline #a80164;
-    color: #a80164;
+    text-decoration: 5px underline #fff;
+    color: #fff;
 }
 
 /* for model csss label */
