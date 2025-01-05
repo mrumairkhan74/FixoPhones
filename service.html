@@ -16,7 +16,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm fixed">
       <div class="container-fluid">
-        <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+        <a class="navbar-brand " href="./index.html"><img class="logo" src="./image/2.png" alt=""></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -26,7 +26,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav m-auto">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link " href="./index.html">Home</a>
             </li>
@@ -63,7 +63,7 @@
               <div class="modal-dialog modal-dialog-scrollable modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <img src="" alt="img" />
+                    <img class="logo" src="./image/2.png" alt="img" />
                     <h1 class="modal-title fs-5" id="exampleModalLabel">
                       Get A Query
                     </h1>
@@ -75,7 +75,7 @@
                     ></button>
                   </div>
                   <div class="modal-body">
-                    <form action="save.php" method="post">
+                    <form action="" method="post">
                       <div class="row g-3">
                         <div class="col m-3">
                           <label class="text-lb" for="customer"
@@ -120,25 +120,7 @@
                           />
                         </div>
                       </div>
-                      <!-- Best way to reach-->
-                      <div class="row g-3">
-                        <div class="col m-3">
-                          <label class="text-lb" for="best"
-                            >Best way to Reach You</label
-                          >
-                          <select
-                            class="form-select m-2"
-                            aria-label="Select one"
-                            id="best"
-                            required
-                          >
-                            <option selected>Open this select menu</option>
-                            <option value="1">Text</option>
-                            <option value="2">Call</option>
-                            <option value="3">Both</option>
-                          </select>
-                        </div>
-                      </div>
+                     
 
                       <!-- date and time -->
                       <div class="row g-2">
@@ -211,6 +193,25 @@
                           </select>
                         </div>
                       </div>
+                       <!-- Best way to reach-->
+                       <div class="row g-3">
+                        <div class="col m-3">
+                          <label class="text-lb" for="best"
+                            >Best way to Reach You</label
+                          >
+                          <select
+                            class="form-select m-2"
+                            aria-label="Select one"
+                            id="best"
+                            required
+                          >
+                            <option selected>Open this select menu</option>
+                            <option value="1">Text</option>
+                            <option value="2">Call</option>
+                            <option value="3">Both</option>
+                          </select>
+                        </div>
+                      </div>
                       <div class="row g-3">
                         <div class="col m-3">
                             <label class="text-lb m-2" for="msg">Message</label>
@@ -232,7 +233,7 @@
                       Close
                     </button>
                     <button type="submit" class="btn btn-2">
-                      Save changes
+                      Submit
                     </button>
                   </div>
                 </div>
@@ -246,121 +247,23 @@
      <section class="container service" style="font-family:'Poppins';">
          <!--Mobile Repairs  --> 
       <div class="container">
-          <div
-            class="services text-center p-2"
-        style='background-color: #a81764; color: #fff'>
+          <div class="services text-center p-2" style='background-color: #a81764; color: #fff'>
             <h1>Services</h1>
           </div>
-          <div class="container-1">
-            <div class="box">
-              <img src="./image/iphone.jpg" alt="Image 1"/>
+         <div class="container"  style='background-color: #740d57; color: #fff'>
+          <div class="container-3 d-flex justify-content-center flex-wrap">
+          <div class="box">
+              <img src="./image/iphone.jpg" alt="">
             </div>
             <div class="box">
-              <div class="text">
-                <h1>Mobile Phone Repairs</h1>
-                <p>
-                  <li>
-                    <b style='letter-spacing: 2px'>Screen Replacement :
-                    </b>
-                    Cracked and shattered screen? We'll replace it with high-quailty
-                    parts to restore your phone to its original conndition.
-                  </li>
-                  <li>
-                    <b>Battery Repalcement : </b>If your phone isn't
-                    holding a charge or draning quickly, we'll install a new battery
-                    to improve performance.
-                  </li>
-                  <li>
-                    <b>Camera Repair : </b>Whether your camera lens is
-                    cracked or not functioning properly, we can repair or replace
-                    it.
-                  </li>
-                  <li>
-                    <b>Charging Port Repair : </b>Having a trouble
-                    charging your phone? Our experts will fix charging port issues
-                    to ensure smooth connectivity.
-                  </li>
-                  <li>
-                    <b>Water Damage : </b>If your phone has suffered water
-                    Damage, we'll do a thorough diagnostic and repair to restore its
-                    functionality.
-                  </li>
-                  <li>
-                    <b>Software Issue : </b>We handle software-related
-                    issues like operating system glitches, app crashes, or malware
-                    infections.
-                  </li>
-                </p>
-                <button
-                  type="button"
-                  class="btn btn-1"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal">
-                  <i class="fa fa-phone p-2"></i>Get a Query
-                </button>
-              </div>
+              <img src="./image/macbook.jpg" alt="">
             </div>
-          </div>
         </div>
-        <!-- Laptop Repairs --> 
-        <div class="container">
-          <div class="container-2">
-            <div class="box">
-              <div class="text">
-                <h1>Laptop Repairs</h1>
-                <p>
-                  <li>
-                    <b style='letter-spacing:2px'>Screen Replacement :
-                    </b>
-                    Cracked and shattered screen? We'll replace it with high-quailty
-                    parts to restore your phone to its original conndition.
-                  </li>
-                  <li>
-                    <b>Battery Repalcement : </b>If your phone isn't
-                    holding a charge or draning quickly, we'll install a new battery
-                    to improve performance.
-                  </li>
-                  <li>
-                    <b>Camera Repair : </b>Whether your camera lens is
-                    cracked or not functioning properly, we can repair or replace
-                    it.
-                  </li>
-                  <li>
-                    <b>Charging Port Repair : </b>Having a trouble
-                    charging your phone? Our experts will fix charging port issues
-                    to ensure smooth connectivity.
-                  </li>
-                  <li>
-                    <b>Water Damage : </b>If your phone has suffered water
-                    Damage, we'll do a thorough diagnostic and repair to restore its
-                    functionality.
-                  </li>
-                  <li>
-                    <b>Software Issue : </b>We handle software-related
-                    issues like operating system glitches, app crashes, or malware
-                    infections.
-                  </li>
-                </p>
-                <button
-                  type="button"
-                  class="btn btn-1"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal">
-                  <i class="fa fa-phone p-2"></i>Get a Query
-                </button>
-              </div>
-            </div>
-            <div class="box">
-              <img src="./image/macbook.jpg" alt="Image 1"/>
-            </div>
-    
-          </div>
-        </div>
-        <div class="container">
-           <!-- Services --> 
-          <div class="container-3" style='background-color:#740d57;color:#fff;padding:30px; font-family:Poppins; letter-spacing: 1px'>
+      </div>
+         <div class="container"  style='background-color: #740d57; color: #fff'>
+          <div class="container-3" style='background-color:#a81764;color:#fff;padding:30px; font-family:Poppins; letter-spacing: 1px'>
             <h2 class="text-center p-3">Services</h2>
-            <p>A mobile and laptop repair shop provides essential services for fixing and maintaining smartphones, laptops, and other electronic devices. These shops typically handle issues such as screen replacements, battery repairs, software troubleshooting, and hardware fixes like charging port or motherboard repairs. Technicians use specialized tools and diagnostic software to assess and repair devices, ensuring a fast and efficient service. The shop may also offer data recovery, virus removal, and general maintenance services for both individual customers and businesses. With expertise in both hardware and software, these repair shops are crucial for extending the lifespan of devices, providing warranty options, and offering competitive pricing for common repair needs.</p>
+            <p>We provide essential services for fixing and maintaining smartphones, laptops, and other electronic devices. We typically handle issues such as screen replacements, battery repairs, software troubleshooting, and hardware fixes like charging port or motherboard repairs.Our Technicians use specialized tools and diagnostic software to assess and repair devices, ensuring a fast and efficient service. We may also offer data recovery, virus removal, and general maintenance services for both individual customers and businesses. With expertise in both hardware and software, Our services are crucial for extending the lifespan of devices, providing warranty options, and offering competitive pricing for common repair needs.</p>
             <ol class="p-3">
               <ul>
                 <li>
@@ -397,7 +300,7 @@
                   <li>
                     <ul class="p-2">
                       <h5>Diagnostic Services:</h5>
-                      <p>Many shops offer diagnostic checks to identify issues in both laptops and mobile devices. This could include identifying hidden software problems, hardware damage, or battery issues.</p>
+                      <p>We offer diagnostic checks to identify issues in both laptops and mobile devices. This could include identifying hidden software problems, hardware damage, or battery issues.</p>
                     </ul>
                   </li>
                 </ol>
@@ -405,180 +308,8 @@
     
             </ol>
           </div>
-          <!-- Typical Repair  --> 
-          <div class="container-3" style='background-color:#a81764;color:#fff;padding:30px; font-family:Poppins; letter-spacing: 1px'>
-            <ol class="p-3">
-              <ul>
-                <li>
-                  <h4>Typical Equipment in the Repair Shop</h4>
-                </li>
-                <ol>
-                  <li>
-                    <ul class="p-2">
-                      <h5>Tools and Machines:</h5>
-                      <li><b>Screwdrivers, Prying Tools, and Heat Guns:</b>For opening devices safely without damaging them.</li>
-                      <li><b>Soldering Equipment:</b>To repair or replace small components on the motherboard or other circuit boards.</li>
-                      <li><b>Diagnostic Devices:</b> To test battery health, screen quality, and performance.</li>
-                      <li><b>Data Recovery Tools:</b>To retrieve data from damaged storage devices.</li>
-                      <li><b>Screen Laminating Machines:</b> For professional screen replacements, especially for high-end devices.</li> </ul>
-                  </li>
-                  <li>
-                    <ul class="p-2">
-                      <h5 style='font-weight:bolder'>Parts and Components:</h5>
-                      <li><b>Mobile Parts: </b>Replacement screens, batteries, charging ports, and internal components.</li>
-                      <li><b>Laptop Parts::</b> Replacement screens, keyboards, RAM, hard drives, and power adapters.</li></ul>
-                  </li>
-                  <li>
-                    <ul class="p-2">
-                      <h5>Software:</h5>
-                      <li><b>Diagnostic Software:</b>Tools to test hardware, run system checks, and analyze issues.</li>
-                      <li><b>Flash Tools:</b> For reinstalling operating systems and firmware.</li>
-                      <li><b>Anti-virus/Anti-malware Software:</b>To remove harmful software and ensure devices run smoothly.</li>
-                    </ul>
-                  </li>
-                  
-                </ol>
-              </ul>
-    
-            </ol>
-          </div>
-         <!-- Staff && Expertise -->
-          <div class="container-3"style='background-color:#740d57;color:#fff;padding:30px; font-family:Poppins; letter-spacing: 1px'>
-            <ol class="p-3">
-              <ul>
-                <li>
-                  <h4>Staff & Expertise</h4>
-                </li>
-                <p>The shop is typically run by professionals who are skilled in both hardware and software repair. The staff includes:</p>
-                <ol>
-                  <li>
-                    <ul class="p-2">
-                      <li><b>Technicians:</b> The core team responsible for diagnosing and repairing devices. They need to be skilled in both electronics and computer science.</li>
-                      <li><b>Customer Support/Receptionist: </b>To handle customer queries, book appointments, and ensure a smooth workflow.</li>
-                      <li><b>Data Recovery Specialists:</b> If the shop offers advanced data recovery services, these specialists will focus on salvaging data from damaged or corrupt storage media.</li>
-                 </ul>
-                  </li>
-                  
-                </ol>
-              </ul>
-    
-            </ol>
-          </div>
-       <!-- Typical Customer --> 
-          <div class="container-3" style='background-color:#a81764;color:#fff;padding:30px; font-family:Poppins; letter-spacing: 1px'>
-            <ol class="p-3">
-              <ul>
-                <li>
-                  <h4>Types of Customers</h4>
-                </li>
-                <ol>
-                  <li>
-                    <ul class="p-2">
-                      <li><b>Individual Consumers:</b>People with personal devices in need of repair, including common problems like broken screens, charging issues, or software crashes.</li>
-                      <li><b>Businesses: </b>Companies with multiple devices (mobiles, laptops) needing bulk repairs, maintenance, or service agreements.</li>
-                      <li><b>Retailers and Resellers:</b>Shops that might refer customers to repair shops for warranty services or device repairs.</li>
-                 </ul>
-                  </li>
-                  
-                </ol>
-              </ul>
-    
-            </ol>
-          </div>
-        <!-- Operating Hours and Location -->
-          <div class="container-3" style='background-color:#740d57;color:#fff;padding:30px; font-family:Poppins; letter-spacing: 1px'>
-            <ol class="p-3">
-              <ul>
-                <li>
-                  <h4>Operating Hours and Location</h4>
-                </li>
-                <ol>
-                  <li>Mobile and laptop repair shops typically operate during regular business hours, but some shops may offer extended hours, especially in busy urban areas.</li>
-                  <li>
-                    <ul class="p-2">
-                      <h5>Location Considerations:</h5>
-                      <li><b>High Foot Traffic Areas:</b>Many repair shops are located in commercial zones or near universities, malls, and tech hubs.</li>
-                      <li><b>Online Services:</b>Some shops also offer mail-in repair services where customers can send their devices for repair.</li>
-                    </ul>
-                  </li>
-                </ol>
-              </ul>
-    
-            </ol>
-          </div>
-          <!-- Pricing --> 
-          <div class="container-3" style='background-color:#a81764;color:#fff;padding:30px; font-family:Poppins; letter-spacing: 1px'>
-            <ol class="p-3">
-              <ul>
-                <li>
-                  <h4>Pricing</h4>
-                </li>
-                <p>Pricing varies depending on the type of repair, the device model, and the complexity of the problem. Common pricing structures include:</p>
-                <ol>
-                    <ul class="p-2">
-                      <li><b>Flat Fee:</b>Fixed prices for common repairs like screen replacements or battery swaps.</li>
-                      <li><b>Hourly Rate:</b> For more complex repairs or diagnostic services.</li>
-                      <li><b>Part Costs:</b>  The customer may pay for parts separately (e.g., battery, screen) in addition to labor charges.</li>
-                    </ul>
-                </ol>
-              </ul>
-    
-            </ol>
-          </div>
-         <!-- Warranty and Guarantees --> 
-          <div class="container-3"style='background-color:#740d57;color:#fff;padding:30px; font-family:Poppins; letter-spacing: 1px'>
-            <ol class="p-3">
-              <ul>
-                <li>
-                  <h4>Warranty and Guarantees</h4>
-                </li>
-                <p>Most repair shops offer warranties on their services, covering the repaired parts for a certain period (usually 30–90 days). This ensures the customer has peace of mind in case the problem reoccurs after the repair.</p>
-                </ul>
-              
-            </ol>
-          </div>
-           <!--  Customer Experience -->
-          <div class="container-3" style='background-color:#a81764;color:#fff;padding:30px; font-family:Poppins; letter-spacing: 1px'>
-            <ol class="p-3">
-              <ul>
-                <li>
-                  <h4> Customer Experience</h4>
-                </li>
-                <p>A good repair shop typically provides:</p>
-                <ol>
-                    <ul class="p-2">
-                      <li><b>Quick Turnaround: </b>Fast and efficient repairs, especially for common problems like screen replacements.</li>
-                      <li><b>Transparent Communication:</b> Clear updates regarding the progress of repairs, costs, and any potential issues.</li>
-                      <li><b>Customer Feedback:</b> Positive reviews and ratings from past customers, ensuring that the shop is reliable and trustworthy.</li>
-                    </ul>
-                  
-                </ol>
-              </ul>
-    
-            </ol>
-          </div>
-           <!-- Challenges Faced by Mobile and Laptop Repair Shops --> 
-          <div class="container-3" style='background-color:#740d57;color:#fff;padding:30px; font-family:Poppins; letter-spacing: 1px'>
-            <ol class="p-3">
-              <ul>
-                <li>
-                  <h4>Challenges Faced by Mobile and Laptop Repair Shops</h4>
-                </li>
-                <p>A good repair shop typically provides:</p>
-                <ol>
-                    <ul class="p-2">
-                      <li><b>Counterfeit Parts: </b>Some low-quality or counterfeit components might be sold at lower prices. Trusted shops ensure they use authentic or high-quality parts.</li>
-                      <li><b>Technology Advancements:</b>With frequent updates and newer models, repair technicians need to stay up-to-date with the latest mobile and laptop technology.</li>
-                      <li><b>Competition:</b>The increasing number of repair shops can lead to competitive pricing and the need for excellent customer service.</li>
-                    </ul>
-                </ol>
-              </ul>
-    
-            </ol>
-          </div>
-    
-        </div>
-    
+      </div>
+
     </div>
 
 
