@@ -1,26 +1,41 @@
 .fixed{
-    background: #fff;
+    background: linear-gradient(to right, #6b064f, #8a0253);
 }
 body, html {
     overflow: visible; /* Allow the modal to be fully visible */
 }
 .modal-dialog {
-    overflow: auto !important; /* Enable scrolling for large modals */
+    overflow: auto; /* Enable scrolling for large modals */
 }
 .modal-open {
     overflow: visible !important; /* Allow the body to overflow if needed */
 }
 
+.model-header,
+.navbar-brand{
+    display: block;
+    width: 20%;
+}
+.modal-header .logo{
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+.navbar-brand .logo{
+    display: block;
+    width: 40%;
+
+}
 .nav-link{
-    color: #a80164;
+    color: #fff;
     font-size: 1.5rem;
 }
 .nav-link:hover,
 .nav-link.active
 {
     text-underline-offset: 10px;
-    text-decoration: 5px underline #a80164;
-    color: #a80164;
+    text-decoration: 5px underline #fff;
+    
 }
 
 /* for model csss label */
@@ -32,15 +47,15 @@ body, html {
 /* model background csss */
 .modal-content,
 .contact{
-  background: linear-gradient(to right, #740d57, #a80164);
+  background: linear-gradient(to right, #440432, #8a0253);
   color: #fff;
 }
 /* model button csss */
 .contact .btn-1
 .modal-content .btn-1{
     background: #ffffff;
-    color: #a80164 ;
-    border: 2px solid #a81764;
+    color: #a80164#fff;
+    border: 2px solid #fff;
 }
 .btn-1,.btn-2,
 .contact .btn-1:hover,
