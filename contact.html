@@ -18,7 +18,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm fixed">
       <div class="container-fluid">
-        <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+        <a class="navbar-brand " href="./index.html"><img class="logo" src="./image/2.png" alt=""></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -28,7 +28,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav m-auto">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="./index.html">Home</a>
             </li>
@@ -65,7 +65,7 @@
               <div class="modal-dialog modal-dialog-scrollable modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <img src="" alt="img" />
+                    <img class="logo" src="./image/2.png" alt="img" />
                     <h1 class="modal-title fs-5" id="exampleModalLabel">
                       Get A Query
                     </h1>
@@ -122,26 +122,7 @@
                           />
                         </div>
                       </div>
-                      <!-- Best way to reach-->
-                      <div class="row g-3">
-                        <div class="col m-3">
-                          <label class="text-lb" for="best"
-                            >Best way to Reach You</label
-                          >
-                          <select
-                            class="form-select m-2"
-                            aria-label="Select one"
-                            id="best"
-                            required
-                          >
-                            <option selected>Open this select menu</option>
-                            <option value="1">Text</option>
-                            <option value="2">Call</option>
-                            <option value="3">Both</option>
-                          </select>
-                        </div>
-                      </div>
-
+                     
                       <!-- date and time -->
                       <div class="row g-2">
                         <div class="col m-3">
@@ -213,6 +194,28 @@
                           </select>
                         </div>
                       </div>
+
+                       <!-- Best way to reach-->
+                       <div class="row g-3">
+                        <div class="col m-3">
+                          <label class="text-lb" for="best"
+                            >Best way to Reach You</label
+                          >
+                          <select
+                            class="form-select m-2"
+                            aria-label="Select one"
+                            id="best"
+                            required
+                          >
+                            <option selected>Open this select menu</option>
+                            <option value="1">Text</option>
+                            <option value="2">Call</option>
+                            <option value="3">Both</option>
+                          </select>
+                        </div>
+                      </div>
+
+
                       <div class="row g-3">
                         <div class="col m-3">
                             <label class="text-lb m-2" for="msg">Message</label>
@@ -234,7 +237,7 @@
                       Close
                     </button>
                     <button type="submit" class="btn btn-2">
-                      Save changes
+                     Submit
                     </button>
                   </div>
                 </div>
@@ -246,7 +249,7 @@
     </nav>
     <div class="container contact p-3 m-auto">
         <h1 class="text-center">Contact Us</h1>
-        <form action="save.php" method="post">
+        <form action="" method="post">
                       <div class="row g-3">
                         <div class="col m-3">
                           <label class="text-lb" for="customer"
@@ -291,25 +294,7 @@
                           />
                         </div>
                       </div>
-                      <!-- Best way to reach-->
-                      <div class="row g-3">
-                        <div class="col m-3">
-                          <label class="text-lb" for="best"
-                            >Best way to Reach You</label
-                          >
-                          <select
-                            class="form-select m-2"
-                            aria-label="Select one"
-                            id="best"
-                            required
-                          >
-                            <option selected>Open this select menu</option>
-                            <option value="1">Text</option>
-                            <option value="2">Call</option>
-                            <option value="3">Both</option>
-                          </select>
-                        </div>
-                      </div>
+                      
 
                       <!-- date and time -->
                       <div class="row g-2">
@@ -382,6 +367,26 @@
                           </select>
                         </div>
                       </div>
+                      <!-- Best way to reach-->
+                      <div class="row g-3">
+                        <div class="col m-3">
+                          <label class="text-lb" for="best"
+                            >Best way to Reach You</label
+                          >
+                          <select
+                            class="form-select m-2"
+                            aria-label="Select one"
+                            id="best"
+                            required
+                          >
+                            <option selected>Open this select menu</option>
+                            <option value="1">Text</option>
+                            <option value="2">Call</option>
+                            <option value="3">Both</option>
+                          </select>
+                        </div>
+                      </div>
+
                       <div class="row g-3">
                         <div class="col m-3">
                             <label class="text-lb m-2" for="msg">Message</label>
@@ -390,21 +395,11 @@
                       </div>
 
                       <!-- message -->
-                      
-                      
+                      <button type="submit" class="btn btn-2 m-1">
+                        Submit
+                      </button>
                     </form>
-                    <div class="modal-footer m-2">
-                    <button
-                      type="button"
-                      class="btn btn-1 m-1"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                    <button type="submit" class="btn btn-2 m-1">
-                      Save changes
-                    </button>
-                  </div>
+                    
     </div>
 
 
