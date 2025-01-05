@@ -10,7 +10,7 @@
 .nav-link.active
 {
     text-underline-offset: 10px;
-    text-decoration: 5px underline #fff;
+    text-decoration: 5px underline #a80164;
     color: #a80164;
 }
 
