@@ -1,6 +1,15 @@
 .fixed{
     background: linear-gradient(to right, #ffff,#000);
 }
+body, html {
+    overflow: visible; /* Allow the modal to be fully visible */
+}
+.modal-dialog {
+    overflow: auto; /* Enable scrolling for large modals */
+}
+.modal-open {
+    overflow: visible !important; /* Allow the body to overflow if needed */
+}
 
 .nav-link{
     color: #fff;
